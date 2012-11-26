@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6D426FF-5A96-4E5F-AD73-1066A84A2EB9}"
+	ProjectSection(SolutionItems) = preProject
+		awe.js = awe.js
+		jquery-1.8.3.min.js = jquery-1.8.3.min.js
+		manifest.json = manifest.json
+		README = README
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

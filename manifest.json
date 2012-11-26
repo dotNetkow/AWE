@@ -1,0 +1,17 @@
+﻿{
+  "name": "Amazon Wishlist, Extended (Awe)",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Adds new features to the Amazon Wishlist pages.",
+  "permissions": [],
+  "icons": {
+	"16": "images/icon_16.png",
+	"48": "images/icon_48.png",
+	"128": "images/icon_128.png" },
+  "content_scripts": [
+    {
+      "matches": ["*://www.amazon.com/registry/wishlist/*","*://www.amazon.com/*/registry/wishlist/*"],
+      "js": ["jquery-1.8.3.min.js", "awe.js"]
+    }
+  ]
+}
