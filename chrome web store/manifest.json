@@ -1,13 +1,13 @@
 ﻿{
   "name": "Amazon WishList Extender (Awe)",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
   "description": "Add new features to the Amazon Wish List pages!",
   "permissions": [],
   "icons": {
-	"16": "images/icon_16.png",
-	"48": "images/icon_48.png",
-	"128": "images/icon_128.png" },
+	"16": "icon_16.png",
+	"48": "icon_48.png",
+	"128": "icon_128.png" },
   "content_scripts": [
     {
       "matches": ["*://www.amazon.com/registry/wishlist/*","*://www.amazon.com/*/registry/wishlist/*","*://www.amazon.com/*/wishlist/*",
